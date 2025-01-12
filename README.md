@@ -123,7 +123,33 @@ Primera forma
 
 Segunda forma 
 -------------------------------
-![]()
+![](https://github.com/vcarreno52/Ejercicio_-Shape/blob/main/Carpeta%20Alternativa2.png?raw=true)
+Caperta shape 
+#__init__
+#
+#__init__
+#Punto 
+                import math 
+                class Punto:
+                    def __init__(self, x: float, y: float):
+                        self.x = x
+                        self.y = y
+                
+                    def calcular_distancia(self, otro_punto):
+                        return math.sqrt((self.x - otro_punto.x)**2 + (self.y - otro_punto.y)**2)
+#Linea
+                from .punto import Punto    
+                
+                class Linea:
+                    def __init__(self, punto_inicial: Punto, punto_final: Punto):
+                        self.punto_inicial = punto_inicial
+                        self.punto_final = punto_final
+                        self.largo = self.calcular_largo()
+                
+                    def calcular_largo(self):
+                        return self.punto_inicial.calcular_distancia(self.punto_final)
+# main 
+
 
             
     
