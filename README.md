@@ -16,4 +16,4 @@ Los módulos individuales que importan Shape heredan de él.
 
 Primera forma 
 -------------------------------
-<img src=""C:\Users\valen\OneDrive\Imágenes\Capturas de pantalla\Captura de pantalla 2025-01-12 181306.png"" alt="Proyecto primero alternativa"
+<img src=""https://raw.githubusercontent.com/vcarreno52/Ejercicio_-Shape/b65cf661626c7565bdb8a09584e75dffbb9183d0/Carpeta%20Altenativa%201.pngg"" alt="Proyecto primero alternativa"
