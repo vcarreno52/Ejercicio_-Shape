@@ -124,6 +124,9 @@ Primera forma
 Segunda forma 
 -------------------------------
 ![](https://github.com/vcarreno52/Ejercicio_-Shape/blob/main/Carpeta%20Alternativa2.png?raw=true)
+
+
+
 Caperta shape 
 #__init__
 # Rectángulo 
