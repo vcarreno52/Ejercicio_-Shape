@@ -1,6 +1,6 @@
-from Shape import Shape
+from shape import shape
 
-class Rectangulo(Shape):
+class Rectangulo(shape):
     def calcular_area(self):
         a, b = [self.edges[0].largo, self.edges[1].largo]
         return a * b
