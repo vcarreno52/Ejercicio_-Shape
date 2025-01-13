@@ -1,5 +1,5 @@
 # EJERCICIO SHAPE 
-##Reto 5 
+## Reto 5 
 <P>
 Cree un paquete con todo el código del ejercicio Shape, este código debe se relaizarse dos maneras: 
 - Primer forma:
@@ -8,7 +8,7 @@ Un módulo único dentro del paquete Shape
 Los módulos individuales que importan Shape heredan de él. 
 
 </P>
-### Instrucciones ejercicio shape 
+## Instrucciones ejercicio shape 
 <p>
 - Create a superclass called Shape(), which is the base of the classes Reactangle() and Square(), define the methods compute_area and compute_perimeter in Shape() and then using polymorphism redefine the methods proprly in Rectangle and in Square.
 - Using the classes Point() and Line() define a new super-class Shape() 
@@ -129,7 +129,7 @@ Segunda forma
 
 Caperta shape 
 #__init__
-# Rectángulo 
+#Rectángulo 
                 from shape import shape
                 
                 class Rectangulo(shape):
@@ -146,6 +146,7 @@ Caperta shape
                     def calcular_perimetro(self):
                         lado = self.edges[0].largo
                         return 4 * lado
+                        
 #Shape
                 class shape:
                     def __init__(self, vertices: list, edges: list, angulos_internos: list):
@@ -172,6 +173,8 @@ Caperta shape
                 
                     def calcular_angulos_internos(self):
                         return self.angulos_internos
+
+                        
 #Triangulo
                 import math
                 from geometria.figuras.figura import Figura
@@ -197,6 +200,7 @@ Caperta shape
                     def calcular_area(self):
                         a = self.edges[0].largo
                         return (math.sqrt(3) / 4) * (a ** 2) if a > 0 else 0
+
     
 #__init__
 -----------------------
