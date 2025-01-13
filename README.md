@@ -232,6 +232,7 @@ Caperta shape
                         def calcular_largo(self):
                             return self.punto_inicial.calcular_distancia(self.punto_final)
 # main 
+                    
 
 
             
