@@ -152,7 +152,14 @@ Segunda forma
 
 Caperta shape 
 #__init__
+
+
+
+                                                
 #Rectángulo 
+
+
+
                                                 from shapes import shape    
                                                 
                                                 class Rectangulo(shape):
@@ -169,7 +176,10 @@ Caperta shape
                                                     def calcular_perimetro(self):
                                                         lado = self.edges[0].largo
                                                         return 4 * lado
+                                                        
 #Shape
+
+
                                                 from punto import Punto 
                                                 from Linea import Linea 
                                                 
@@ -196,6 +206,8 @@ Caperta shape
                                                                         
 
 #Triangulo
+
+
                                                 from shapes import shape
                                                 
                                                 class Triangulo(shape):
@@ -233,8 +245,13 @@ Caperta shape
 
         
 #__init__
+
+
+                                                
 -----------------------
 #Punto 
+
+
                                                 class Punto:
                                                     def __init__(self, x:float, y:float):
                                                         self.x = x
@@ -244,6 +261,8 @@ Caperta shape
                                                         return ((self.x - punto.x)**2 + (self.y - punto.y)**2)**0.5
                             
 #Linea
+
+
                                                 
                                                 from punto import Punto
                                                 
@@ -257,6 +276,8 @@ Caperta shape
                                                     
 
 # main 
+
+
                                                 from punto import Punto
                                                 from Linea import Linea
                                                 from Shapes.shapes import shape
